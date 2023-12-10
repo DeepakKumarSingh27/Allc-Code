@@ -1,0 +1,187 @@
+classLink-> https://meet.google.com/wpb-aiex-wye?authuser=0
+
+
+https://youtu.be/eXqoj0Jd7pw
+https://youtu.be/C-MKgWoEh4Y
+https://youtu.be/23Jnj8r13aE
+https://www.youtube.com/watch?v=QxJaNIo1DUo&list=PLX07l0qxoHFLZftsVKyj3k9kfMca2uaPR
+DS-.
+https://youtu.be/EhVx2CUpdFk
+https://youtu.be/ihNNsu96Xsg
+https://www.c-sharpcorner.com/article/c-sharp-regex-examples/
+({ 7, 5, 8, 9, 11, 23, 18 }) -> 1 (diff btw 8,9)
+({ 200, 300, 250, 151, 162 }) -> 11 (diff btw 151, 162)"
+
+{ "25","Anna","False","25","Anna","False"};
+f   1     1      1      2     2      2
+     25
+  0  1  2    3    4     5  
+ 25 25 Anna Anna false false 
+       2          4 
+ string[] str = { "25","Anna","False","25","Anna","False"};
+ string[] st = new string[3];
+ Arrays.sort(str);5
+
+  Console.WriteLine("Enter the size of Array");
+  int x = int.Parse(Console.ReadLine());
+  int[] arr = new int[x];
+  Console.WriteLine("Enter the " + x + " values");
+  for (int i = 0; i < arr.Length; i++)
+  {
+      arr[i] = Convert.ToInt32(Console.ReadLine());
+  }
+  int[] brr = new int[arr.Length];
+  for (int i = 0; i < arr.Length - 1; i++)
+  {
+      brr[i] = (arr[i + 1] - arr[i]);
+
+  }
+  for (int i = 0; i < brr.Length; i++)
+  {
+      if (brr[i] == 1)
+          Console.Write("diff btw " + arr[i] + "," + arr[i + 1]);
+  }
+
+
+
+name-> ^[A-za-z]$
+Deepak -> ^[a-zA-z]{3}$
+
+
+Testing
+
+https://youtu.be/8xUeuYg8iC0
+https://youtu.be/XoIe9ZPqH88
+https://youtu.be/r85U_IzALz0
+https://youtu.be/jG7jjR8_oUg
+https://youtu.be/pHJDf_oJJ1E
+
+Excepton
+https://youtu.be/vFbSGWmORZI
+HashValue->
+HasValue: This property returns a bool value based on that if the Nullable variable has some value or not. If the variable has some value, then it will return true; otherwise, it will return false if it doesn't have value or it's null.
+int?a
+https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/nullable-value-types?redirectedfrom=MSDN
+
+Lamda Expression->
+https://youtu.be/7tCvmuDRcL0
+
+Collection ->
+ArrayList,Array,LinkList,Dictonary,HashSet,SortedSet,Map
+https://youtu.be/DNWbDTW7C8U
+https://youtu.be/LlZ9djXf0HE
+
+
+
+
+Regex->
+Problem: Create a regex pattern to validate a password with the following criteria:
+At least 8 characters long
+Contains at least one uppercase letter, one lowercase letter, one digit, and one special character (@, #, or $).
+Sample Data:
+Valid: "P@ssw0rd", "Secu#ity7"
+Invalid: "weakpass", "12345678"
+
+
+^[a-zA-Z]{1,}{1-9}{1,}[@, #, or $]{1,}{1,8}$
+
+priyanshu.a@bridgelabz.com
+
+
+  
+  };
+Linq->
+https://www.c-sharpcorner.com/article/linq-methods/1+
+
+
+import java.util.*;
+
+public class VendingMachine {
+
+    static int[] notes = { 1000, 500, 100, 50, 10, 5, 2, 1 };
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the change amount: ");
+        int change = scanner.nextInt();
+        scanner.close();
+
+        int[] noteCount = getMinNotes(change);
+
+        System.out.println("Minimum number of notes required: ");
+        for (int i = 0; i < notes.length; i++) {
+            if (noteCount[i] > 0) {
+                System.out.println(notes[i] + " Rs notes : " + noteCount[i]);
+            }
+        }
+    }
+
+    public static int[] getMinNotes(int amount) {
+        int[] noteCount = new int[notes.length];
+        for (int i = 0; i < notes.length; i++) {
+            if (amount >= notes[i]) {
+                noteCount[i] = amount / notes[i];
+                amount -= noteCount[i] * notes[i];
+            }
+        }
+        return noteCount;
+    }
+}
+public class NewtonSQRT {
+    public static void main(String[] args) {
+        System.out.println(sqrt(40));
+    }
+
+    public static double sqrt(double n) {
+        double x = n;
+        double root;
+        while (true) {
+            root = 0.5 * (x + (n / x));
+            if (Math.abs(root - x) < 0.5) {
+                break;
+            }
+            x = root;
+        }
+        return root;
+    }
+}
+
+To join the video meeting, click this link: https://meet.google.com/wpb-aiex-wye
+Otherwise, to join by phone, dial +1 515-497-4149 and enter this PIN: 177 023 633#
+To view more phone numbers, click this link: https://tel.meet/wpb-aiex-wye?hs=5
+
+FileHandling->
+https://www.guru99.com/c-sharp-file-operations.html
+https://www.youtube.com/watch?v=LxZGNwHq9kY
+https://www.youtube.com/watch?v=k8JCQofLP2Q
+
+Deepak- Write a program to copy the contents of one text file to another.
+
+Reflextion ->
+
+https://www.programiz.com/csharp-programming/reflection
+https://youtu.be/GERN0EFaeow
+https://youtu.be/7R_a4mRLcsY
+https://youtu.be/PbHUwAzrddQ
+https://youtu.be/QFwEgaiuZwg
+
+
+DAtabase->
+https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16
+https://youtu.be/UJwh2JzN5_g
+
+ER Diagrams->
+https://youtu.be/UHEBRHRB3ko
+ADIO>NEt->
+https://youtu.be/neH4UB5uLns
+
+
+saibandu->
+linqu->
+https://youtu.be/TtFST7jA-rE
+https://youtu.be/Kp6Q45hW_1I
+Design principle->
+https://youtu.be/s1tc9SpKN-0
+HW->
+Create a list of integers and use lambda expressions to filter even numbers.
+How can you use regex to validate a date in the format "YYYY-MM-DD" in C#?
